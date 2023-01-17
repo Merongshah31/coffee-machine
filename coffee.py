@@ -1,8 +1,6 @@
 #english + main.py
 
 #dictinory
-
-
 price = {
     "Espresso": 5.80,
     "Americano": 6.90,
@@ -19,6 +17,7 @@ price = {
 
 currency = "RM"
 
+#english version
 class Language:
     def __init__(self):
         self.language = english
@@ -31,13 +30,8 @@ print(english)
 # Ask user for their name
 name = input("Can I get your name? \n")
 
-
-
-
 # Ask user for their order
 print("What would you like to order, Mr/Ms. " + name + "?")
-
-
 
 # Print menu options
 menu = [
@@ -46,16 +40,12 @@ menu = [
 ]
 print(menu)
 
-
 order = input()
-
 
 # Ask user for the quantity of their order
 quantity = int(input("How many " + order + " would you like?\n"))
 
 # Define a function to calculate the total price of the order
-
-
 def calculate_total(quantity, price):
     total = quantity * price[order]
     return total
