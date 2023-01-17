@@ -16,7 +16,7 @@ price = {
 }
 
 currency = "RM"
-
+#malay version
 class Bahasa:
     def __init__(self):
         self.Bahasa = melayu
@@ -29,13 +29,8 @@ print(melayu)
 # Ask user for their name
 name = input("Boleh saya dapatkan nama anda? \n")
 
-
-
-
 # Ask user for their order
 print("encik/cik " + name + " mahu order apa?")
-
-
 
 # Print menu options
 menu = [
@@ -44,16 +39,12 @@ menu = [
 ]
 print(menu)
 
-
 order = input()
-
 
 # Ask user for the quantity of their order
 quantity = int(input("Berapa banyak " + order + " yang anda mahukan?\n"))
 
 # Define a function to calculate the total price of the order
-
-
 def calculate_total(quantity, price):
     total = quantity * price[order]
     return total
@@ -82,5 +73,3 @@ from decimal import Decimal
 value = Decimal(change)
 formatted_change = 'RM{:,.2f}'.format(value)
 print("Baki anda adalah: " + formatted_change)
-
-from receipt import Recipt
