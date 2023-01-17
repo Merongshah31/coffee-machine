@@ -11,13 +11,13 @@ intro = input("language(malay/english)\n")
 
 # Check user's preferred language
 if intro == "english":
-    # Print the English language message
+    # location of file from coffee.py
     import sys
     sys.path.append(r"C:\\Users\shah8\\hello\\coffee.py")
     from coffee import Language
     
 elif intro == "malay":
-    # Print the Malay language message
+    # location of file from kopi.py
     import sys
     sys.path.append(r"C:\\Users\shah8\\hello\\kopi.py")
     from kopi import Bahasa
