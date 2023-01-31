@@ -22,5 +22,5 @@ Inspiration, code snippets, etc.
 
 
 ## contact
-ex. @sardinadabi (twitter)
-ex. shahidsaharudin31@gmail.com
+ex.  @sardinadabi (twitter)
+ex.  shahidsaharudin31@gmail.com
